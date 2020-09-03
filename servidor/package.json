@@ -1,0 +1,31 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servidor.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node servidor.js",
+    "dev": "nodemon --require dotenv/config servidor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acamica-dwfs-bue-vil-1/ea-9-que-veo-hoy.git"
+  },
+  "author": "Eitan Abelson",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/acamica-dwfs-bue-vil-1/ea-9-que-veo-hoy/issues"
+  },
+  "homepage": "https://github.com/acamica-dwfs-bue-vil-1/ea-9-que-veo-hoy#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0"
+  }
+}
